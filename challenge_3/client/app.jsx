@@ -32,7 +32,15 @@ class App extends React.Component {
 
 ReactDOM.render(<App/>, document.getElementById('app'));
 
-
+function form1 () {
+  return (
+    <div>
+      <form>
+        <textarea placeholder=""></textarea>
+      </form>
+    </div>
+  )
+}
 
 /* Checkout Homepage,
     checkout button component
